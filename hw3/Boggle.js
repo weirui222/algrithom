@@ -25,7 +25,7 @@ function findWord(dictionary, boggle){
   let m = boggle.length;
   let n = boggle[0].length;
   var isValidPos = function(i, j) {
-    return i >= 0 && i <= M && j >= 0 && j <= N;
+    return i >= 0 && i <= m && j >= 0 && j <= n;
   };
 
   let visited = [];
